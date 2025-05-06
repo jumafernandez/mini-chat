@@ -102,7 +102,7 @@ Ctrl + C
 
 ## 📸 Captura de ejemplo
 
-![mini-chat](docs/captura_ejemplo.png)
+![Captura](docs/captura_ejemplo.png)
 
 ---
 
