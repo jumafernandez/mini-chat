@@ -1,8 +1,13 @@
 import streamlit as st
 
 def contar_vocales(texto):
+    cantidad = 0
     vocales = "aeiouáéíóúAEIOUÁÉÍÓÚ"
-    return sum(1 for c in texto if c in vocales)
+    for c in texto:
+        if c in vocales:
+            cantidad += 1
+
+    return cantidad
 
 st.title("🔡 Contador de vocales")
 
